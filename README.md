@@ -248,4 +248,4 @@ deleteUser: builder.mutation({
 const [deleteUser] = useDeleteUserMutation();
 ///////////////////////////////////////////////////
 <Button className="btn btn-sm btn-danger m-1" onClick={()=> deleteUser(user.id)}>Supprimer</Button>
-# CRUD_RTK_Query
+
