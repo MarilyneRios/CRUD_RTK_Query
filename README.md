@@ -196,6 +196,8 @@ mise en place du Navbar.Toggle dans le Header.jsx
 
 **18/ EditUser et DeleteUser**
 
+Modifier les datas d'un user =>
+
     updateUser: builder.mutation({
             query: (user) => ({
                 url: `/users/${user.id}`,
@@ -235,6 +237,7 @@ navigate("/");
 </Form.Group>....
 ///////////////////////////////////////////////////
 
+ Supprimer un user =>
 ///////////////////////////////////////////////////
 deleteUser: builder.mutation({
   query: (id) => ({
